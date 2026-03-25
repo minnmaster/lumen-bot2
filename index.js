@@ -19,4 +19,4 @@ client.on('messageCreate', message => {
   }
 });
 
-client.login("MTQ4NjMwMjEyNzY3NTQxMjU4NA.G3Fa8L.VQfU5suDOfU6H1Y8Ta7eWg4dNwfptRScxzLYUE");
+client.login(process.env.TOKEN);
